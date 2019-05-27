@@ -4,15 +4,17 @@ import arcade
 WIDTH = 640
 HEIGHT = 480
 
-#x position of car
-Car_position_x = 150
-delta_x = 1  # change in x
 #BUTTON HOTSPOTS
 my_button = [45, 140, 30, 30]  # x, y, width, height
 show_text = False
 
+#x position of car
+Car_position_x = 150
+delta_x = 1  # change in x
+
+
 def draw_car(x, y):
-   """ Draw a car """
+  
 
    # Car
    arcade.draw_rectangle_filled(205 + x, 350 + y, 85,65, arcade.color.ROYAL_BLUE)
