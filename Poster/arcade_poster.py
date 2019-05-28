@@ -5,7 +5,7 @@ WIDTH = 640
 HEIGHT = 480
 
 #BUTTON HOTSPOTS
-my_button = [45, 140, 30, 30]  # x, y, width, height
+my_button = [45, 150, 30, 30]  # x, y, width, height
 show_text = False
 
 #x position of car
@@ -14,7 +14,7 @@ delta_x = 1  # change in x
 
 
 def draw_car(x, y):
-  
+   """ Draw a car """
 
    # Car
    arcade.draw_rectangle_filled(205 + x, 350 + y, 85,65, arcade.color.ROYAL_BLUE)
@@ -39,7 +39,7 @@ def on_draw():
   # Draw Words...
    arcade.draw_text("How Portable Computing Devices Affect Our Everyday Lives"
                     , 0, 250, arcade.color.BLACK, 19.499)
-   arcade.draw_text("GPS help with navigation", 115, 450, arcade.color.BLAST_OFF_BRONZE, 16)
+   arcade.draw_text("GPS help with navigation", 85, 450, arcade.color.BLAST_OFF_BRONZE, 16)
    arcade.draw_text("Laptops help us access information from around the world "
                     , 214, 215, arcade.color.BRILLIANT_ROSE, 13)
 
