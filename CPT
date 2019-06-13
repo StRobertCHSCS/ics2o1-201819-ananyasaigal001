@@ -66,9 +66,9 @@ if(choice_two_ab == "a"):
    print("option b is:", "You tell them to stop laughing")
 
    #choose an option
-   choice_3= input("Which option do you pick a,b? ")
+choice_3 = input("Which option do you pick a,b? ")
 
-elif(choice_two_ab=="b"):
+if(choice_two_ab =="b"):
    print("Your teacher looks relieved and continues the lesson.")
    print("You see a group of people including your best friend looking at a book and laughing.")
      #choice 3
@@ -130,7 +130,7 @@ if(choice_five =="b"):
    #choose an option
 
 #results for choice 3
-if(choice_three == "a" or choice_three == "b"):
+if(choice_three == "a" or choice_three == "b" or choice_3 =="a" or choice_3 == "b"):
    print("You go the washroom after the period is over and search for you diary, but you can not find it.")
    print("You look for it in the lost and found, but it isn’t there.")
 
