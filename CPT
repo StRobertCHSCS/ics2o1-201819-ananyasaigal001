@@ -6,7 +6,7 @@ print("At recess your best friend was laughing at you with other people,when you
 #choice one
 print("option a is: ","You go up to your friend and say Hi")
 print("option b is:", "You ignore them and walk away")
-print("option C:", "You go to the washroom and cry")
+print("option C is:", "You go to the washroom and cry")
 
 #choose which option
 choice_one = input("Which option do you pick a,b or c? ")
@@ -34,8 +34,8 @@ elif(choice_one == "b"):
    print("You  start breaking down in class in front of the strictest teacher. He comes up and asks you whats wrong.")
 
    #choice 2 (a,b)
-   print("option a is:", "You tell the teacher what happened")
-   print("option b is:","You tell the teacher that you have dust  in your eye")
+   print("option a is:","You tell the teacher what happened")
+   print("option b is:","You tell the teacher that you have dust in your eye")
 
 
 elif(choice_one == "c"):
@@ -52,7 +52,7 @@ if(choice_two == "a" or choice_two == "b" ):
 
    #choice 2 (a,b)
    print("option a is:","You tell the teacher what happened")
-   print("option b is:", "You tell the teacher that you have dust in your eye")
+   print("option b is:","You tell the teacher that you have dust in your eye")
 
    #choose an option
 choice_two_ab = input("Which option do you pick a,b? ")
@@ -97,7 +97,7 @@ if(choice_four == "a" or choice_four == "b"):
 
    #choice 5
    print("option a is:","You tell your Mom what is going on")
-   print( "option b is:","You do nothing")
+   print("option b is:","You do nothing")
 
    #choose an option
    choice_five = input("Which option do you pick a,b? ")
@@ -125,7 +125,7 @@ if(choice_five =="b"):
    print("On the weekend you question everything about yourself.")
    print("Your father is in prison, your mother can’t see the pain your in, your grades are falling and everyone at your school hates you.")
    print("You feel lost there is only one option you see. Something that will finally take the pain away.")
-   print ("You reach into the kitchen cupboard and pull it your sharpest knife.")
+   print("You reach into the kitchen cupboard and pull it your sharpest knife.")
    print("You hesitate, you want to tell everyone you loved a final goodbye.")
    print("You cut into your flesh and form two letters with your blood.One to your mom and one to your best friend. ")
    print("In the letter to your mom, you tell her that it is not her fault that you are  doing this.  You tell her, that this is the best for everyone.")
