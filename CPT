@@ -137,7 +137,7 @@ if(choice_five =="b"):
 
 
 #result from choice 6
-while True:
+while (choice_5="a"):
    if (choice_6=="a"):
       print("Slowly things become alright, your dad will be out of the prison in 2 months, your mom has found a nice job with which she can easily run the home.")
       print(" A major cause of the family issues was the financial crisis your family was facing and since your mom has found a good paying job, the financial crisis will be resolved.")
