@@ -51,7 +51,7 @@ if(choice_two == "a" or choice_two == "b" ):
 
    #choice 2 (a,b)
    print("option a is:","You tell the teacher what happened")
-   print("option b is:", "You tell the teacher that you have dust  in your eye")
+   print("option b is:", "You tell the teacher that you have dust in your eye")
 
    #choose an option
 choice_two_ab = input("Which option do you pick a,b? ")
@@ -103,17 +103,17 @@ if(choice_four == "a" or choice_four == "b"):
 
 #results for choice 5
 if(choice_five =="a"):
-   print("Your Mom refuses to listen your problems as she is facing her own facing financial difficulties and tells you not to worry and says its normal. ")
-   print("You go back to doing your homework. ")
+   print("Your Mom refuses to listen your problems as she is facing her own  financial difficulties and tells you not to worry and says its normal.You go back to doing your homework. ")
    print("The next day you talk to your favourite teacher about your issues and she promises to talk to the students and tells you not to worry and everything will be fine. ")
    print("After the conversation you feel relieved and know that now everything will be fine. ")
    print("A couple days later the messages have stopped and the teacher asks you if you are fine")
 
    #choice 6
-   print("option a is:","You tell her you are fine and thank her and give her a present")
+   print("option a:","You tell her you are fine and thank her and give her a present")
+   print("option b:","You tell her you are miserable and everything is breaking apart")
 
-   #choose an option
-   choice_6= input("Which option do you pick? ")
+   # choose an option
+   choice_6 = input("Which option do you pick? ")
 
 if(choice_five =="b"):
    print("You go back to doing your homework feeling depressed and bottle your emotions up.")
@@ -134,9 +134,33 @@ if(choice_five =="b"):
    print("Deep down inside you hesitate once more. Then you remember how quickly the pain will end and you’ll finally be free.")
    print("You push the knife hard into your chest delivering one final scream and then its over.")
 
+
 #result from choice 6
-elif(choice_6=="a"):
- print("Slowly things become alright, your dad will be out of the prison in 2 months, your mom has found a nice job with which she can easily run the home.")
- print(" A major cause of the family issues was the financial crisis your family was facing and since your mom has found a good paying job, the financial crisis will be resolved.")
- print("There is a new girl in school who just moved into the area.She does not judge you for your family.")
- print("You get along with her and have become good friends. You are no longer lonely and have found a new best friend.")
+while True:
+   if (choice_6=="a"):
+      print("Slowly things become alright, your dad will be out of the prison in 2 months, your mom has found a nice job with which she can easily run the home.")
+      print(" A major cause of the family issues was the financial crisis your family was facing and since your mom has found a good paying job, the financial crisis will be resolved.")
+      print("There is a new girl in school who just moved into the area.She does not judge you for your family.")
+      print("You get along with her and have become good friends. You are no longer lonely and have found a new best friend.")
+      break
+
+   elif (choice_6=="b"):
+      print("On the weekend you question everything about yourself.")
+      print(
+         "Your father is in prison, your mother can’t see the pain your in, your grades are falling and everyone at your school hates you.")
+      print("You feel lost there is only one option you see. Something that will finally take the pain away.")
+      print("You reach into the kitchen cupboard and pull it your sharpest knife.")
+      print(" You hesitate, you want to tell everyone you loved a final goodbye.")
+      print(
+         "You cut into your flesh and form two letters with your blood.One to your mom and one to your best friend. ")
+      print(
+         "In the letter to your mom, you tell her that it is not her fault that you are  doing this.  You tell her, that this is the best for everyone.")
+      print(
+         " In the letter to your best friend, you tell her that you forgive her and that in these last days you have not remembered her for the bad things she has done to you but for all the good memories you have had together.")
+      print("You remind her of some of the good memories and then you end the letter. ")
+      print(
+         "Then,you go out into backyard careful not to wake your mother. You inch the knife into your chest. Should I do this you ask yourself.")
+      print(
+         "Deep down inside you hesitate once more. Then you remember how quickly the pain will end and you’ll finally be free.")
+      print("You push the knife hard into your chest delivering one final scream and then its over.")
+      break
