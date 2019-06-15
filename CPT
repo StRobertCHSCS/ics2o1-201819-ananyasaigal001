@@ -11,7 +11,7 @@ print("option C is:", "You go to the washroom and cry")
 #choose which option
 choice_one = input("Which option do you pick a,b or c? ")
 choice_two = "c"
-choice_6 = "a"
+choice_six = "a"
 
 #results from first choice
 if(choice_one == "a"):
@@ -75,10 +75,10 @@ if(choice_two_ab =="b"):
    print("option b is:", "You tell them to stop laughing")
 
    #choose an option
-choice_3 = input("Which option do you pick a,b? ")
+choice_three = input("Which option do you pick a,b? ")
 
 #results for choice 3
-if(choice_3 == "a" or choice_3 == "b" ):
+if(choice_three == "a" or choice_three == "b" ):
    print("You go the washroom after the period is over and search for you diary, but you can not find it.")
    print("You look for it in the lost and found, but it isn’t there.")
 
@@ -114,7 +114,7 @@ if(choice_five =="a"):
    print("option b:","You tell her you are miserable and everything is breaking apart")
 
    # choose an option
-   choice_6 = input("Which option do you pick? ")
+   choice_six = input("Which option do you pick? ")
 
 if(choice_five =="b"):
    print("You go back to doing your homework feeling depressed and bottle your emotions up.")
@@ -138,14 +138,14 @@ if(choice_five =="b"):
 
 #result from choice 6
 while (choice_five=="a"):
-   if (choice_6=="a"):
+   if (choice_six=="a"):
       print("Slowly things become alright, your dad will be out of the prison in 2 months, your mom has found a nice job with which she can easily run the home.")
       print(" A major cause of the family issues was the financial crisis your family was facing and since your mom has found a good paying job, the financial crisis will be resolved.")
       print("There is a new girl in school who just moved into the area.She does not judge you for your family.")
       print("You get along with her and have become good friends. You are no longer lonely and have found a new best friend.")
       break
 
-   elif (choice_6=="b"):
+   elif (choice_six=="b"):
       print("On the weekend you question everything about yourself.")
       print("Your father is in prison, your mother can’t see the pain your in, your grades are falling and everyone at your school hates you.")
       print("You feel lost there is only one option you see. Something that will finally take the pain away.")
