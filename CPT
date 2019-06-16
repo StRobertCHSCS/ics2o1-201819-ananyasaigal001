@@ -1,3 +1,9 @@
+```
+Name: CPT.py
+Purpse: Choose your own adventure story game
+Author:Ananya Saigal
+Created: 17/06/ 2019
+```
 #intro
 print("Your family is not normal, it never was,  you never had many friends or much of a social life. You lived in  small town where everyone knew each other. Everyone would judge you for your dysfunctional family.")
 print("However things became worse when the police came to arrest your father. The next day you woke up to a series of negative messages on your social media accounts. When you arrived at school everyone was gossiping about you. ")
