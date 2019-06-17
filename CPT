@@ -165,3 +165,5 @@ while (choice_five=="a"):
       print("Deep down inside you hesitate once more. Then you remember how quickly the pain will end and you’ll finally be free.")
       print("You push the knife hard into your chest delivering one final scream and then its over.")
       break
+   else:
+      input("That is not a valid choice. Do you choose a or b?")
